@@ -12,11 +12,7 @@ python-multipart==0.0.9
 # HTTP客户端
 httpx==0.27.0
 
-# 数据处理
-pandas==2.2.0
-openpyxl==3.1.2
-
-# 可选：Playwright (网页解析)
-# playwright==1.44.0
+# 数据处理（可选，用于Excel导出）
+# openpyxl==3.1.2  # pip install openpyxl  # Windows可直接安装，无需编译
 
 # AI API (通过httpx调用，无需额外SDK)
