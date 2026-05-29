@@ -16,6 +16,9 @@ from datetime import datetime
 BASE_DIR = Path(__file__).parent
 sys.path.insert(0, str(BASE_DIR / 'backend'))
 
+# 创建logs目录（提前创建，避免logging报错）
+(BASE_DIR / 'logs').mkdir(parents=True, exist_ok=True)
+
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
