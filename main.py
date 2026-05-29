@@ -13,7 +13,7 @@ from pathlib import Path
 from datetime import datetime
 
 # 确保路径正确
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = Path(__file__).parent
 sys.path.insert(0, str(BASE_DIR / 'backend'))
 
 # 配置日志
