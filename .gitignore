@@ -1,0 +1,4 @@
+buyers.db
+node_modules/
+electron/
+.env
